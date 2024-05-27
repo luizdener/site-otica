@@ -1,0 +1,33 @@
+.header {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #fff;
+
+    .limited_width {
+        width: 100%;
+        max-width: 1024px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .image {
+            width: auto;
+            height: 50px;
+        }
+
+        menu {
+            display: flex;
+            gap: 20px;
+            
+            a {
+                color: #000000;
+                text-decoration: none;
+            }
+        }
+    }
+}
