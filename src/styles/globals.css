@@ -1,11 +1,13 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: inherit;
     font-family: 'Tahoma', sans-serif;
   }
 
   body, html {
-    width: 98.8vw;
+    width: 100vw;
     height: 100vh;
+    overflow: auto;
+    box-sizing: border-box;
   }
